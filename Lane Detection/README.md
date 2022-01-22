@@ -1,7 +1,14 @@
 
 # **Finding Lane Lines on the Road** 
 
-This file discusses my implementation of the pipeline to find the lane lines on road.
+![Lane Detection](https://user-images.githubusercontent.com/94236807/150647901-c41d8589-3c27-43f0-98b8-c9116152f10d.gif)
+
+
+
+
+---
+
+This file discusses my implementation of the Lane Detection pipeline to find the lane lines on road.
 
 
 ## Reflection
