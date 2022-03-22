@@ -17,7 +17,7 @@ This file discusses my implementation of the Lane Detection pipeline to find the
 ###  Pipeline of drawing lines
 ---
 
-First implemented the pipeline as an abstract to draw semgemented lines, and then as a next step averaged and extrapolated to draw two straight lane lines (left and right). I have implemented this pipeline as a function **drawLinesPipeline()**. The function is perameterized, such that all the parameters to the various sub-functions in the pipline could be passed in as paremeters. 
+First implemented the pipeline as an abstract to draw segmented lines, and then as a next step averaged and extrapolated to draw two straight lane lines (left and right). I have implemented this pipeline as a function **drawLinesPipeline()**. The function is perameterized, such that all the parameters to the various sub-functions in the pipline could be passed in as paremeters. 
 
 Syntax:  
 **linedImage =  drawLinesPipeline(image, cannyKernelSize, cannyLowThresh, cannyHighThresh, maskVertices, 
